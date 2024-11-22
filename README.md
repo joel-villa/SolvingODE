@@ -10,9 +10,10 @@
 - Where: P(x) = 3, Q(x) = 2, a = 1, b = 6, u_0 = 1, u_N = 6, h = 1 / N,
 - Implies:
   - c1 * u_(i-1) + c2 * u_i + c3 * u_(i+1) = h^2 * 4x_i^2
-- Where c1 = 1 - 3/2 * h, c2 = -2 + 2h^2, c3 = 1 + 3/2 * h
+- Where
+  - c1 = 1 - 3/2 * h, c2 = -2 + 2h^2, c3 = 1 + 3/2 * h
 - Implies:
-  -A**u** = **F**
+  - A**u** = **F**
 - Where:
   - **u** = (u_1, u_2, ..., u_(n-1))^T
   - A is a diagonal matrix with c1, c2, and c3 along its three centermost top-left to bottom-right digaonals
