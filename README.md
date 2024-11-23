@@ -87,3 +87,4 @@
 - TrapezoidError.m has the code for calculating the error when using 162 points 
   (n = 161) to approximate the indefinite integral from [a, b] of sin(x) with 
   respect to x
+- To see the results hit the run button
